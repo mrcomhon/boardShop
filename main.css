@@ -1,9 +1,9 @@
 @font-face {
   font-family: "Grtsk Peta";
   src: local("Grtsk Peta Light"), local("Grtsk-Peta-Light"),
-    url("GrtskPeta-Light.woff2") format("woff2"),
-    url("GrtskPeta-Light.woff") format("woff"),
-    url("GrtskPeta-Light.ttf") format("truetype");
+    url("./assets/fonts/GrtskPeta-Light.woff2") format("woff2"),
+    url("./assets/fonts/GrtskPeta-Light.woff") format("woff"),
+    url("./assets/fonts/GrtskPeta-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
@@ -868,7 +868,7 @@ input::placeholder {
   background-repeat: no-repeat;
   padding: 0 138px;
   color: white;
-  background-image: url("./1.png");
+  background-image: url("./assets/images/1.png");
 }
 
 .container {
